@@ -1,0 +1,8 @@
+[package]
+name = "lis_pendens_scraping"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12.7"
+tokio = {version="1", features=["full"]}
